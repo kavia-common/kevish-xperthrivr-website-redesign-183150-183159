@@ -1,9 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import Image from "next/image";
 import Container from "@/components/layout/Container";
 import { footerQuickLinks, mainNav } from "@/lib/routes";
 
 export default function Footer() {
+  // Marked as a Client Component because it renders a form with an onSubmit handler.
   return (
     <footer className="mt-12 border-t border-[color:var(--color-border)] bg-[color:var(--color-surface)]" role="contentinfo">
       <Container className="container-px">

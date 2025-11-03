@@ -1,6 +1,9 @@
+"use client";
+
 import Link from "next/link";
 
 export default function NotFound() {
+  // Client component because it renders a form with an onSubmit handler.
   return (
     <main id="main-content" className="app-main section">
       <div className="container-px mx-auto" style={{ maxWidth: "var(--container-max)" }}>
