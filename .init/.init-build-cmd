@@ -1,0 +1,4 @@
+{
+    "command": "npm install && npm run lint && npm run build",
+    "working_directory": "/home/kavia/workspace/code-generation/kevish-xperthrivr-website-redesign-183150-183159/kevish_xperthrivr_frontend"
+}
