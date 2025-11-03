@@ -1,0 +1,13 @@
+{
+  "name": "XperThrivr",
+  "short_name": "XperThrivr",
+  "description": "Modern, ocean-inspired professional website.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563EB",
+  "icons": [
+    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png", "purpose": "any" }
+  ]
+}
